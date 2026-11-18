@@ -1,0 +1,16 @@
+# Grade 12 Python Homework – mBot2
+
+import cyberpi
+
+cyberpi.display.clear()
+
+cyberpi.display.show_label("Name: Jona", 0, 16)
+cyberpi.display.show_label("Surname: Ismaili", 1, 16)
+cyberpi.display.show_label("Favorite Color: Hot Pink", 2, 16)
+
+cyberpi.display.show_label("Favorite Subjects:", 3, 16)
+cyberpi.display.show_label("1. Math", 4, 16)
+cyberpi.display.show_label("2. English", 5, 16)
+cyberpi.display.show_label("3. Physics", 6, 16)
+
+cyberpi.led.on(255, 0, 0)
